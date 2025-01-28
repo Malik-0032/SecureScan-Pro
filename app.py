@@ -1,11 +1,11 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_file
 from security_scanner import SecurityScanner  # Import your security scanner class
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=".")
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return send_file('index.html')
 
 @app.route('/run_scan', methods=['POST'])
 def run_scan():
