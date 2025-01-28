@@ -1,5 +1,5 @@
 // Backend Configuration
-const BACKEND_URL = "https://securescan.onrender.com";
+const BACKEND_URL = "https://securescan-pro.onrender.com";
 
 // DOM Elements
 const urlInput = document.getElementById('url');
