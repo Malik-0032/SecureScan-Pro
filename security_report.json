@@ -1,0 +1,42 @@
+{
+    "scan_target": "https://example.com",
+    "scan_time": "2025-01-28T21:52:15.253568",
+    "findings": [
+        {
+            "type": "missing_security_header",
+            "severity": "MEDIUM",
+            "description": "Missing HSTS header"
+        },
+        {
+            "type": "missing_security_header",
+            "severity": "MEDIUM",
+            "description": "Missing X-Content-Type-Options header"
+        },
+        {
+            "type": "missing_security_header",
+            "severity": "MEDIUM",
+            "description": "Missing X-Frame-Options header"
+        },
+        {
+            "type": "missing_security_header",
+            "severity": "MEDIUM",
+            "description": "Missing Content Security Policy"
+        },
+        {
+            "type": "open_port",
+            "severity": "LOW",
+            "description": "Port 80 is open"
+        },
+        {
+            "type": "open_port",
+            "severity": "LOW",
+            "description": "Port 443 is open"
+        }
+    ],
+    "summary": {
+        "total_findings": 6,
+        "high_severity": 0,
+        "medium_severity": 4,
+        "low_severity": 2
+    }
+}
