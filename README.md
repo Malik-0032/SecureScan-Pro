@@ -1,7 +1,7 @@
 ﻿# SecureScan-Pro
 A professional-grade web application security scanner with an intuitive interface that helps identify potential vulnerabilities and security issues in web applications. This tool combines a sleek frontend interface with a powerful Python Flask backend to provide comprehensive security assessments.
 
-![TaskFlow Pro Banner](Final.jpg)
+![TaskFlow Pro Banner](Outlook.jpg)
 
 ## 🚀 Features
 -> Real-time security scanning of websites and web applications
