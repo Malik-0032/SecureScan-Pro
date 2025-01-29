@@ -1,21 +1,22 @@
 ﻿# SecureScan-Pro
 A professional-grade web application security scanner with an intuitive interface that helps identify potential vulnerabilities and security issues in web applications. This tool combines a sleek frontend interface with a powerful Python Flask backend to provide comprehensive security assessments.
 
-🚀 Features
+# 🚀 Features
 -> Real-time security scanning of websites and web applications
 -> Comprehensive vulnerability assessment
 -> Detailed JSON reports
 -> PDF report generation
 
-🔧 Installation & Setup
-Clone the repository:
-bashCopygit clone https://github.com/Malik-0032/SecureScan-Pro.git
-cd SecureScan-Pro
+# 🔧 Installation & Setup
+-> Clone the repository: 
+   bashCopygit clone https://github.com/Malik-0032/SecureScan-Pro.git 
+   cd SecureScan-Pro
 
-Set up the backend:
-bashCopy# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+-> Set up the backend:
+   bashCopy# Create a virtual environment
+   python -m venv venv
+   source venv/bin/activate  
+  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -29,36 +30,16 @@ bashCopy# Open index.html in your browser
 # Or use a local server:
 python -m http.server 8000
 
-📡 API Endpoints
-The backend server exposes the following endpoints:
 
-POST /run_scan
-
-Performs security scan on specified URL
-Request body: { "url": "https://example.com", "scanType": "full", "options": {...} }
-
-
-POST /generate_pdf
-
-Generates PDF report from scan results
-Request body: Scan results JSON
-
-
-POST /share
-
-Creates shareable link for scan results
-Request body: Scan results JSON
-
-
-🎯 Future Enhancements
+# 🎯 Future Enhancements
 ->  Integration with additional security tools
 ->  Enhanced reporting capabilities
 ->  Real-time collaboration features
 ->  Custom scan templates
--> API key authentication
--> Historical scan comparisons
+->  API key authentication
+->  Historical scan comparisons
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 Fork the repository
@@ -67,5 +48,5 @@ Commit your changes: git commit -m 'Add some AmazingFeature'
 Push to the branch: git push origin feature/AmazingFeature
 Open a pull request
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 This tool is meant for security testing of systems you have permission to test. Do not use this tool against systems you don't own or have explicit permission to test. The authors are not responsible for any misuse or damage caused by this program.
